@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  background-color: #f0ffff;
+}
+
+.title {
+  font-size: 100px;
+}
