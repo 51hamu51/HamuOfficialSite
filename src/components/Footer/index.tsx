@@ -1,5 +1,5 @@
 import styles from "./footer.module.css";
-import Link, { LinkProps } from "next/link";
+import Link from "next/link";
 
 export const Footer: React.FC = () => {
   return (
