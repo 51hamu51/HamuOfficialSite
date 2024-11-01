@@ -1,15 +1,11 @@
-"use client";
 import styles from "./header.module.css";
-
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export const Header: React.FC = () => {
-  const router = useRouter();
-
   return (
     <div className={styles.headerArea}>
-      <h1 className={styles.headerText} onClick={() => router.push("/")}>
-        はむ
+      <h1 className={styles.headerText}>
+        <Link href="/">はむ</Link>
       </h1>
     </div>
   );
