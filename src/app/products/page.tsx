@@ -1,4 +1,4 @@
-import styles from "./Products.module.css";
+import styles from "./products.module.css";
 import Image from "next/image";
 
 export default function Products() {

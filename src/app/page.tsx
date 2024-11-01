@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <h1 className="title">HOME</h1>
       <div>
-        <Link href="/Products">Productを見る</Link>
+        <Link href="/products">Productを見る</Link>
       </div>
     </>
   );
