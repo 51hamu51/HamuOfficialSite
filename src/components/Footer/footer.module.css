@@ -1,8 +1,43 @@
 .footerText {
+  display: flex;
+}
+.footerText_title {
   color: #f8e5ee;
   font-size: 50px;
   padding: 20px;
 }
 .footerArea {
   background-color: #3d1308;
+  display: flex;
+}
+.footerText_message {
+  color: #f8e5ee;
+  font-size: 15px;
+  padding: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.links {
+  color: #f8e5ee;
+  font-size: 15px;
+  padding: 5px;
+}
+.links_children {
+  display: flex;
+  flex-direction: column;
+}
+.links_title {
+  font-size: 20px;
+}
+.pages {
+  color: #f8e5ee;
+  font-size: 15px;
+  padding: 5px;
+}
+.pages_children {
+  display: flex;
+  flex-direction: column;
+}
+.pages_title {
+  font-size: 20px;
 }
