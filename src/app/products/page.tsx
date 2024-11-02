@@ -1,5 +1,6 @@
 import styles from "./products.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Products() {
   return (
@@ -26,6 +27,14 @@ export default function Products() {
             />
             <div className={styles.Products_sentence}>
               <p>オンラインで遊べるTPSゲームです。</p>
+            </div>
+            <div className={styles.Products_link}>
+              <Link
+                className="underline"
+                href="https://unityroom.com/games/bpex"
+              >
+                作品を見に行く
+              </Link>
             </div>
           </div>
         </div>

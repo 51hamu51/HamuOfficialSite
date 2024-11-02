@@ -4,9 +4,50 @@ import Link from "next/link";
 export const Footer: React.FC = () => {
   return (
     <div className={styles.footerArea}>
-      <h1 className={styles.footerText}>
-        <Link href="/">はむ</Link>
-      </h1>
+      <div className={styles.footerText}>
+        <h1 className={styles.footerText_title}>
+          <Link href="/">はむ</Link>
+        </h1>
+        <p className={styles.footerText_message}>
+          作品やサイトの感想、ご意見などありましたらぜひ
+          <Link className="underline" href="https://x.com/B5iBlc">
+            X(旧Twitter)
+          </Link>
+          までお願いします！
+        </p>
+      </div>
+      <div className={styles.pages}>
+        <div className={styles.pages_title}>
+          <p>Pages</p>
+        </div>
+        <div className={styles.pages_children}>
+          <Link className="underline" href="/">
+            Home
+          </Link>
+          <Link className="underline" href="/products">
+            作品一覧
+          </Link>
+        </div>
+      </div>
+      <div className={styles.links}>
+        <div className={styles.links_title}>
+          <p>SNS</p>
+        </div>
+        <div className={styles.links_children}>
+          <Link className="underline" href="https://x.com/B5iBlc">
+            X(旧Twitter)
+          </Link>
+          <Link className="underline" href="https://github.com/51hamu51">
+            GitHub
+          </Link>
+          <Link
+            className="underline"
+            href="https://unityroom.com/users/5p7xkwjelf3odztyha10"
+          >
+            unityroom
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
