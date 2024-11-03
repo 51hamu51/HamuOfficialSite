@@ -16,36 +16,38 @@ export const Footer: React.FC = () => {
           までお願いします！
         </p>
       </div>
-      <div className={styles.pages}>
-        <div className={styles.pages_title}>
-          <p>Pages</p>
+      <div className={styles.PageAndLink}>
+        <div className={styles.pages}>
+          <div className={styles.pages_title}>
+            <p>Pages</p>
+          </div>
+          <div className={styles.pages_children}>
+            <Link className="underline" href="/">
+              Home
+            </Link>
+            <Link className="underline" href="/products">
+              作品一覧
+            </Link>
+          </div>
         </div>
-        <div className={styles.pages_children}>
-          <Link className="underline" href="/">
-            Home
-          </Link>
-          <Link className="underline" href="/products">
-            作品一覧
-          </Link>
-        </div>
-      </div>
-      <div className={styles.links}>
-        <div className={styles.links_title}>
-          <p>SNS</p>
-        </div>
-        <div className={styles.links_children}>
-          <Link className="underline" href="https://x.com/B5iBlc">
-            X(旧Twitter)
-          </Link>
-          <Link className="underline" href="https://github.com/51hamu51">
-            GitHub
-          </Link>
-          <Link
-            className="underline"
-            href="https://unityroom.com/users/5p7xkwjelf3odztyha10"
-          >
-            unityroom
-          </Link>
+        <div className={styles.links}>
+          <div className={styles.links_title}>
+            <p>SNS</p>
+          </div>
+          <div className={styles.links_children}>
+            <Link className="underline" href="https://x.com/B5iBlc">
+              X(旧Twitter)
+            </Link>
+            <Link className="underline" href="https://github.com/51hamu51">
+              GitHub
+            </Link>
+            <Link
+              className="underline"
+              href="https://unityroom.com/users/5p7xkwjelf3odztyha10"
+            >
+              unityroom
+            </Link>
+          </div>
         </div>
       </div>
     </div>

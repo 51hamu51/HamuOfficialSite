@@ -1,5 +1,8 @@
 .footerText {
   display: flex;
+  width: 60%;
+
+  justify-content: space-evenly;
 }
 .footerText_title {
   color: #f8e5ee;
@@ -40,4 +43,26 @@
 }
 .pages_title {
   font-size: 20px;
+}
+.PageAndLink {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+}
+@media (max-width: 599px) {
+  .footerArea {
+    flex-direction: column;
+  }
+  .footerText {
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .PageAndLink {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .footerText_title {
+    font-size: 0;
+  }
 }
