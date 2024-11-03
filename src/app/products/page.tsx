@@ -1,46 +1,46 @@
 import styles from "./products.module.css";
-import Image from "next/image";
-import Link from "next/link";
+import { Works } from "@/components/Works";
 
 export default function Products() {
   return (
     <>
       <h1 className="title">作品一覧</h1>
-      <div className="works">
-        <div className="work">
-          <div className={styles.DivideLine}></div>
-          <div className={styles.title_parent}>
-            <div className={styles.Products_title}>
-              <h2> BPEX</h2>
-            </div>
-            <div className={styles.Tags}>
-              <div className={styles.Tag}>個人開発</div>
-              <div className={styles.Tag}>ゲーム</div>
-            </div>
-          </div>
-          <div className={styles.Products_contents}>
-            <Image
-              alt="BPEX_icon"
-              src="/Images/BPEX_icon.png"
-              width={200}
-              height={200}
-            />
-            <div className={styles.Products_sentence}>
-              <p>オンラインで遊べるTPSゲームです。</p>
-            </div>
-            <div className={styles.Products_link}>
-              <Link
-                className="underline"
-                href="https://unityroom.com/games/bpex"
-              >
-                作品を見に行く
-              </Link>
-            </div>
-          </div>
+      <div className={styles.works}>
+        <div className={styles.works_children}>
+          <Works
+            title="BPEX"
+            tags={["個人開発", "ゲーム"]}
+            image_alt="BPEX_icon"
+            image_src="/Images/BPEX_icon.png"
+            image_width={200}
+            image_height={200}
+            sentence="オンラインで遊べるTPSゲームです。"
+            link="https://unityroom.com/games/bpex"
+          />
         </div>
-        <div className="work">
-          <div className={styles.DivideLine}></div>
-          <h2 className={styles.Products_title}>Soccer</h2>
+        <div className={styles.works_children}>
+          <Works
+            title="Soccer"
+            tags={["チーム開発", "VRC"]}
+            image_alt="BPEX_icon"
+            image_src="/Images/BPEX_icon.png"
+            image_width={200}
+            image_height={200}
+            sentence="ギラヴァンツ北九州をモチーフにした、VRChatのワールドです。"
+            link="https://vrchat.com/home/world/wrld_5c122d6d-60ab-4194-90e8-caf3a3406c80"
+          />
+        </div>
+        <div className={styles.works_children}>
+          <Works
+            title="e-ZUKA Journey"
+            tags={["チーム開発", "アプリ"]}
+            image_alt="BPEX_icon"
+            image_src="/Images/BPEX_icon.png"
+            image_width={200}
+            image_height={200}
+            sentence="福岡県飯塚市の観光アプリです。"
+            IsLink={false}
+          />
         </div>
       </div>
     </>
