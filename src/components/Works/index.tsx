@@ -36,8 +36,8 @@ export const Works = ({
         </div>
         <div className={styles.Tags}>
           {tags.map((value) => (
-            <div className={styles.Tag}>
-              <p key={tags[0]}>{value}</p>
+            <div className={styles.Tag} key={tags[0]}>
+              <p>{value}</p>
             </div>
           ))}
         </div>
