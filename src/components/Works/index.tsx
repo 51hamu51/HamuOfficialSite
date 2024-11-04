@@ -32,16 +32,15 @@ export const Works = ({
 
       <div className={styles.title_parent}>
         <div className={styles.Products_title}>
-          <h2> {title}</h2>
+          <h2 className={styles.Products_title_text}> {title}</h2>
         </div>
-
-        {(() => {
-          const items = [];
-          for (let i = 0; i < tags.length; i++) {
-            items.push(<div className={styles.Tag}>{tags[i]}</div>);
-          }
-          return <div className={styles.Tags}>{items}</div>;
-        })()}
+        <div className={styles.Tags}>
+          {tags.map((value) => (
+            <div className={styles.Tag}>
+              <p>{value}</p>
+            </div>
+          ))}
+        </div>
       </div>
 
       <div className={styles.Products_contents}>
