@@ -1,6 +1,5 @@
 .Products_title {
-  margin: 30px;
-
+  margin-right: 20px;
   font-size: 25px;
   border-left: solid rgb(60, 205, 241) 10px;
 }
@@ -22,14 +21,20 @@
 }
 .Tag {
   padding: 0.2em 0.5em;
-  margin: 2em 0.5em;
   background: #d6ebff;
   box-shadow: 0px 0px 0px 5px #d6ebff;
   border: dashed 2px white;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
 }
 .title_parent {
   display: flex;
+  padding: 30px;
 }
 .Products_link {
   color: #0065fd;
+}
+.Products_title_text {
+  margin: 0px;
 }
