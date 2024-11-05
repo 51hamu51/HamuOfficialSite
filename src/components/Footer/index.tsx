@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
       <div className={styles.PageAndLink}>
         <div className={styles.pages}>
           <div className={styles.pages_title}>
-            <p>Pages</p>
+            <p className={styles.pages_title_head}>Pages</p>
           </div>
           <div className={styles.pages_children}>
             <Link className="underline" href="/">
@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
         </div>
         <div className={styles.links}>
           <div className={styles.links_title}>
-            <p>SNS</p>
+            <p className={styles.links_title_head}>SNS</p>
           </div>
           <div className={styles.links_children}>
             <Link className="underline" href="https://x.com/B5iBlc">

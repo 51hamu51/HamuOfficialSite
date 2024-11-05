@@ -49,6 +49,12 @@
   width: 20%;
   justify-content: space-evenly;
 }
+.links_title_head {
+  color: #f8e5ee;
+}
+.pages_title_head {
+  color: #f8e5ee;
+}
 @media (max-width: 599px) {
   .footerArea {
     flex-direction: column;
