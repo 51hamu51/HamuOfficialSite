@@ -30,18 +30,17 @@ export const Works = ({
     <>
       <div className={styles.DivideLine}></div>
 
-      <div className={styles.title_parent} key={title}>
+      <div className={styles.title_parent}>
         <div className={styles.Products_title}>
           <h2 className={styles.Products_title_text}> {title}</h2>
         </div>
-
-        {tags.map((value) => (
-          <div className={styles.Tags}>
-            <div className={styles.Tag}>
+        <div className={styles.Tags}>
+          {tags.map((value) => (
+            <div className={styles.Tag} key={{ title } + "_" + value}>
               <p>{value}</p>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
 
       <div className={styles.Products_contents}>
