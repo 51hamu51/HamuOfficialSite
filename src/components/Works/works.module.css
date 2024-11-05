@@ -38,6 +38,7 @@
 .Products_title_text {
   margin: 0px;
 }
+
 @media (max-width: 599px) {
   .title_parent {
     display: block;

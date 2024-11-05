@@ -38,3 +38,20 @@ a {
 .hamu {
   color: brown;
 }
+p {
+  color: black;
+}
+h2 {
+  color: black;
+}
+@media (prefers-color-scheme: dark) {
+  p {
+    color: black;
+  }
+  h2 {
+    color: black;
+  }
+  h1 {
+    color: black;
+  }
+}
