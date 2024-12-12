@@ -5,23 +5,23 @@
   justify-content: space-evenly;
 }
 .footerText_title {
-  color: #f8e5ee;
+  color: #e3ddc5;
   font-size: 50px;
   padding: 20px;
 }
 .footerArea {
-  background-color: #3d1308;
+  background-color: #1c5172;
   display: flex;
 }
 .footerText_message {
-  color: #f8e5ee;
+  color: #e3ddc5;
   font-size: 15px;
   padding: 5px;
   margin-top: auto;
   margin-bottom: auto;
 }
 .links {
-  color: #f8e5ee;
+  color: #e3ddc5;
   font-size: 15px;
   padding: 5px;
 }
@@ -33,7 +33,7 @@
   font-size: 20px;
 }
 .pages {
-  color: #f8e5ee;
+  color: #e3ddc5;
   font-size: 15px;
   padding: 5px;
 }
@@ -50,10 +50,10 @@
   justify-content: space-evenly;
 }
 .links_title_head {
-  color: #f8e5ee;
+  color: #e3ddc5;
 }
 .pages_title_head {
-  color: #f8e5ee;
+  color: #e3ddc5;
 }
 @media (max-width: 599px) {
   .footerArea {

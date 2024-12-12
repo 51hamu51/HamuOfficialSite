@@ -1,10 +1,10 @@
 .Products_title {
   margin-right: 20px;
   font-size: 25px;
-  border-left: solid rgb(60, 205, 241) 10px;
+  border-left: solid #4ea2c6 10px;
 }
 .DivideLine {
-  border-bottom: dotted 2px #dacfd0;
+  border-bottom: dotted 2px #cfbeaf;
   padding-top: 1em;
   margin: 0 0 -0.5em;
 }
@@ -21,12 +21,14 @@
 }
 .Tag {
   padding: 0.2em 0.5em;
-  background: #d6ebff;
-  box-shadow: 0px 0px 0px 5px #d6ebff;
-  border: dashed 2px white;
+  background: #add0df;
+  border: solid 2px #f0d69a;
   margin-right: 20px;
   display: flex;
   align-items: center;
+}
+.Tag_p {
+  color: #997f42;
 }
 .title_parent {
   display: flex;
@@ -37,6 +39,7 @@
 }
 .Products_title_text {
   margin: 0px;
+  color: #4ea2c6;
 }
 
 @media (max-width: 599px) {
