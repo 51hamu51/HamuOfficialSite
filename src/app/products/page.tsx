@@ -10,10 +10,10 @@ export default function Products() {
           <Works
             title="BPEX"
             tags={["個人開発", "ゲーム"]}
-            image_alt="BPEX_icon"
-            image_src="/Images/BPEX_icon.png"
-            image_width={200}
-            image_height={200}
+            IsMovie={true}
+            movie_src="/Images/BPEX_for_site.mp4"
+            movie_width={400}
+            movie_height={200}
             sentence="オンラインで遊べるTPSゲームです。"
             link="https://unityroom.com/games/bpex"
           />
@@ -22,9 +22,9 @@ export default function Products() {
           <Works
             title="Soccer"
             tags={["チーム開発", "VRC"]}
-            image_alt="BPEX_icon"
-            image_src="/Images/BPEX_icon.png"
-            image_width={200}
+            image_alt="Soccer_icon"
+            image_src="/Images/Soccer.png"
+            image_width={279}
             image_height={200}
             sentence="ギラヴァンツ北九州をモチーフにした、VRChatのワールドです。"
             link="https://vrchat.com/home/world/wrld_5c122d6d-60ab-4194-90e8-caf3a3406c80"
@@ -34,9 +34,9 @@ export default function Products() {
           <Works
             title="e-ZUKA Journey"
             tags={["チーム開発", "アプリ"]}
-            image_alt="BPEX_icon"
-            image_src="/Images/BPEX_icon.png"
-            image_width={200}
+            image_alt="e-ZUKA_icon"
+            image_src="/Images/e-ZUKA.png"
+            image_width={114}
             image_height={200}
             sentence="福岡県飯塚市の観光アプリです。"
             IsLink={false}
@@ -52,6 +52,16 @@ export default function Products() {
             image_height={200}
             sentence="UnityでARアプリを作るためのチュートリアルです。"
             link="https://qiita.com/51hamu51/items/80e472b8bbb3b52e4ecd"
+          />
+        </div>
+        <div className={styles.works_children}>
+          <Works
+            title="BAGOLA"
+            tags={["チーム開発", "ゲーム"]}
+            IsMovie={true}
+            movie_src="/Images/bagola.mp4"
+            sentence="身の回りのバーコードを読み込んで戦わせる、コマンド式バトルゲームです。"
+            IsLink={false}
           />
         </div>
       </div>
