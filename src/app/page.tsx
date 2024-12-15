@@ -1,11 +1,13 @@
 import Link from "next/link";
-//import styles from "./home.module.css";
+import styles from "./home.module.css";
 export default function Home() {
   return (
     <>
       <h1 className="title">HOME</h1>
-      <div>
-        <Link href="/products">作品一覧を見る</Link>
+      <div className={styles.links}>
+        <Link href="/products">
+          <p>作品一覧を見る</p>
+        </Link>
       </div>
     </>
   );
