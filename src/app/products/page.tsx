@@ -34,10 +34,8 @@ export default function Products() {
           <Works
             title="e-ZUKA Journey"
             tags={["チーム開発", "アプリ"]}
-            image_alt="e-ZUKA_icon"
-            image_src="/Images/e-ZUKA.png"
-            image_width={114}
-            image_height={200}
+            IsMovie={true}
+            movie_src="/Images/Kyutech.mp4"
             sentence="福岡県飯塚市の観光アプリです。"
             IsLink={false}
           />
@@ -46,7 +44,7 @@ export default function Products() {
           <Works
             title="UnityでAR"
             tags={["記事"]}
-            image_alt="BPEX_icon"
+            image_alt="UnityでAR"
             image_src="/Images/Unity_AR.png"
             image_width={130}
             image_height={200}

@@ -16,8 +16,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "はむ official site",
-  description: "はむのオフィシャルサイトです",
+  title: "はむ portfolio site",
+  description: "はむのポートフォリオサイトです",
 };
 
 export default function RootLayout({
