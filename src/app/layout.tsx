@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "はむ portfolio site",
+  title: "はむの制作記録",
   description: "はむのポートフォリオサイトです",
 };
 
