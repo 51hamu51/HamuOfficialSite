@@ -43,9 +43,12 @@ export const Footer: React.FC = () => {
             </Link>
             <Link
               className="underline"
-              href="https://unityroom.com/users/5p7xkwjelf3odztyha10"
+              href="https://unityroom.com/users/51hamu51"
             >
               unityroom
+            </Link>
+            <Link className="underline" href="https://qiita.com/51hamu51">
+              Qiita
             </Link>
           </div>
         </div>
