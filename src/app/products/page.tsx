@@ -62,6 +62,16 @@ export default function Products() {
             IsLink={false}
           />
         </div>
+        <div className={styles.works_children}>
+          <Works
+            title="KyutechGuide"
+            tags={["チーム開発", "アプリ"]}
+            IsMovie={true}
+            movie_src="/Images/Canvas.mp4"
+            sentence="オープンキャンパス用の、学内ナビアプリです。"
+            IsLink={false}
+          />
+        </div>
       </div>
     </>
   );
