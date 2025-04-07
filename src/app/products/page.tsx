@@ -72,6 +72,16 @@ export default function Products() {
             IsLink={false}
           />
         </div>
+        <div className={styles.works_children}>
+          <Works
+            title="(開発中)"
+            tags={["個人開発", "ゲーム"]}
+            IsMovie={true}
+            movie_src="/Images/Sword.mp4"
+            sentence="アーチャー伝説をモチーフにしたゲームを制作中です。"
+            IsLink={false}
+          />
+        </div>
       </div>
     </>
   );
