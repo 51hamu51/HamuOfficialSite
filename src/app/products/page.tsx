@@ -78,7 +78,7 @@ export default function Products() {
             tags={["個人開発", "ゲーム"]}
             IsMovie={true}
             movie_src="/Images/Sword.mp4"
-            sentence="アーチャー伝説をモチーフにしたゲームを制作中です。"
+            sentence="インターンで制作した、アーチャー伝説をモチーフにしたゲームを改造中です。"
             IsLink={false}
           />
         </div>
