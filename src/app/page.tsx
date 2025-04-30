@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <h1 className="title">HOME</h1>
       <p className={styles.introduction}>
-        ゲーム業界志望の大学生です！ ゲーム、ARアプリ等いろいろ作ってます。
+        27卒の大学生です！ ゲーム、ARアプリ等いろいろ作ってます。
       </p>
       <div className={styles.links}>
         <Link href="/products">
