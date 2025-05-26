@@ -1,2 +1,6 @@
+# KCLhack2025
 
-# HamuOfficialSite
+## 目標
+
+- 最後までやり切る！
+- つよつよエンジニアになる！
