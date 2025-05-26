@@ -23,9 +23,6 @@ export const Footer: React.FC = () => {
           </div>
           <div className={styles.pages_children}>
             <Link className="underline" href="/">
-              Home
-            </Link>
-            <Link className="underline" href="/products">
               作品一覧
             </Link>
           </div>
