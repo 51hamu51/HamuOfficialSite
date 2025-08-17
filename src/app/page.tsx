@@ -74,11 +74,31 @@ export default function Products() {
         </div>
         <div className={styles.works_children}>
           <Works
+            title="Unityチュートリアル-2Dシューティング-"
+            tags={["記事"]}
+            IsMovie={true}
+            movie_src="/Images/tutorial.mp4"
+            sentence="Unity初心者向けの、シューティングゲーム作成講座を開催しました。"
+            link="https://qiita.com/51hamu51/items/203034fa062c6fc80c81"
+          />
+        </div>
+        <div className={styles.works_children}>
+          <Works
             title="(開発中)"
             tags={["個人開発", "ゲーム"]}
             IsMovie={true}
             movie_src="/Images/Sword.mp4"
             sentence="インターンで制作した、アーチャー伝説をモチーフにしたゲームを改造中です。"
+            IsLink={false}
+          />
+        </div>
+        <div className={styles.works_children}>
+          <Works
+            title="(開発中)"
+            tags={["個人開発", "ゲーム"]}
+            IsMovie={true}
+            movie_src="/Images/RPG.mp4"
+            sentence="タクティクスRPGを制作中です"
             IsLink={false}
           />
         </div>
