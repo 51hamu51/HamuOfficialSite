@@ -84,6 +84,20 @@ export default function Products() {
         </div>
         <div className={styles.works_children}>
           <Works
+            title="ミラクル★スライム"
+            tags={["チーム開発", "ゲーム"]}
+            IsMovie={false}
+            image_alt="ミラクル★スライム♡エボリューション"
+            image_src="/Images/miracle.png"
+            image_width={298}
+            image_height={167}
+            sentence="3D育成アクションゲームを作りました"
+            IsLink={true}
+            link="https://unityroom.com/games/miracle"
+          />
+        </div>
+        <div className={styles.works_children}>
+          <Works
             title="(開発中)"
             tags={["個人開発", "ゲーム"]}
             IsMovie={true}
