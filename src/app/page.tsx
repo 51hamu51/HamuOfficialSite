@@ -98,6 +98,20 @@ export default function Products() {
         </div>
         <div className={styles.works_children}>
           <Works
+            title="Jingle Bomb"
+            tags={["チーム開発", "ゲーム"]}
+            IsMovie={false}
+            image_alt="Jingle Bomb"
+            image_src="/Images/jingle.png"
+            image_width={298}
+            image_height={167}
+            sentence="クリスマスがモチーフのカジュアルゲームです"
+            IsLink={true}
+            link="https://unityroom.com/games/jinglebomb"
+          />
+        </div>
+        <div className={styles.works_children}>
+          <Works
             title="(開発中)"
             tags={["個人開発", "ゲーム"]}
             IsMovie={true}
