@@ -79,7 +79,7 @@ export default function Products() {
             IsMovie={true}
             movie_src="/Images/tutorial.mp4"
             sentence="Unity初心者向けの、シューティングゲーム作成講座を開催しました。"
-            link="https://qiita.com/51hamu51/items/203034fa062c6fc80c81"
+            IsLink={false}
           />
         </div>
         <div className={styles.works_children}>
