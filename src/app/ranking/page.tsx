@@ -1,4 +1,5 @@
 ///APIテストのためのページ
+///練習用
 
 type Score = { rank: number; name: string; score: number };
 
